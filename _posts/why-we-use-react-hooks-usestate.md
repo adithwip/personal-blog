@@ -81,7 +81,7 @@ function ReactComponent() {
 }
 ```
 
-Now we finally use the `useState API`. Notice we have to elements inside what `useState` returns as an array. `favoriteFood` and `setFavoriteFood`. We can also call it `accessor` and `mutator` (adopting from other programming language concepts).
+Now we finally use the `useState API`. Notice we have two elements inside what `useState` returns as an array: `favoriteFood` and `setFavoriteFood`. We can also call it `accessor` and `mutator` (adopting from other programming language concepts).
 
 The accessor (favoriteFood) is where `React useState` stores the state for us. The mutator (setFavoriteFood) is what `React useState` gave to us for the function we can **trigger to update our state** in the accessor. And after we trigger state update with `setFavoriteFood`, now `favoriteFood` will hold our **new value of the state**.
 
