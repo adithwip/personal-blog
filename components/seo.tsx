@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
-import config, { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
+import config from '../lib/constants'
 
 type Props = {
   article?: boolean,
