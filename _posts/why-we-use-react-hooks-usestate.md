@@ -80,14 +80,14 @@ function ReactComponent() {
 }
 ```
 
-Now we finally use the useState API. Notice we have to elements inside what useState returns as an array. favoriteFood and setFavoriteFood. We can also call it accessor and mutator (adopting from other programming language concepts).
+Now we finally use the `useState API`. Notice we have to elements inside what `useState` returns as an array. `favoriteFood` and `setFavoriteFood`. We can also call it `accessor` and `mutator` (adopting from other programming language concepts).
 
-The accessor (favoriteFood) is where React useState stores the state for us. The mutator (setFavoriteFood) is what React useState gave to us for the function we can **trigger to update our state** in the accessor. And after we trigger state update with setFavoriteFood, now favoriteFood will hold our **new value of the state**.
+The accessor (favoriteFood) is where `React useState` stores the state for us. The mutator (setFavoriteFood) is what `React useState` gave to us for the function we can **trigger to update our state** in the accessor. And after we trigger state update with `setFavoriteFood`, now `favoriteFood` will hold our **new value of the state**.
 
-Okay, what the difference then with our previous approach? With a simple variable with a let keyword.
+Okay, what the ***difference*** then with our previous approach? With a simple variable with a `let` keyword before?
 
-That's where React useState is performing the difference. React useState **has a mechanism** that will tell React to always updating the render on every state update. Because after we trigger setFavoriteFood, the state inside favoriteFood is updated, then we need something to work for us to update the DOM with the current updated state we have. And voila! What we type on the input, is immediate shows on the render. Thanks, React useState!
+That's where `React useState` is performing the difference. `React useState` **has a mechanism** that will tell React to always updating the render on every state update. Because after we trigger `setFavoriteFood`, the state inside `favoriteFood` is updated, then we need something to work for us to update the `DOM` with the current updated state we have. And voila! What we type on the input, is immediate shows on the render. Thanks, `React useState`!
 
-It concludes the sole reason why we really need React useState to manage our internal state in a React component. Because we are provided with a built-in mechanism inside the API to control the rerender on every state update.
+It concludes the sole reason why we really need `React useState` to manage our internal state in a React component. Because we are provided with a built-in mechanism inside the API to control the rerender on every state update.
 
-But, what if we don't want to trigger rerender when we store something and later change it? That's the job for React useRef. Maybe we can talk about it in another blog post 😋
+But, what if we don't want to trigger rerender when we store something and later change it? That's the job for `React useRef`. Maybe we can talk about it in another blog post 😋
