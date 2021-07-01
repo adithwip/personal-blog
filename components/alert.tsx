@@ -31,7 +31,9 @@ const Alert = ({ preview }: Props) => {
             <>
               The source code for this blog is{' '}
               <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+                href={`https://github.com/adithwip/personal-blog`}
+                target="_blank"
+                rel="noopener noreferer"
                 className="underline hover:text-success duration-200 transition-colors"
               >
                 available on GitHub

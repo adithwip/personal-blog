@@ -1,6 +1,6 @@
 ---
 title: 'Why We Use React Hooks useState'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'Ever wonder why we have to wrap every state inside our React component with useState?'
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2021-07-01T05:24:25.352Z'
 author:
@@ -15,7 +15,7 @@ Ever wonder why we have to wrap every data/state inside our React component with
 Let's talk about it deeper with a code example:
 [*Also, you can play around in this CodeSandbox](https://codesandbox.io/s/why-we-use-react-hooks-usestate-xspwq)
 
-```jsx diff
+```jsx
 import * as React from 'react'
 
 function ReactComponent() {
