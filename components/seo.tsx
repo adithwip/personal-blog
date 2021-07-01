@@ -79,6 +79,8 @@ const SEO = ({
 
       <meta name="format-detection" content="telephone=no" />
 
+      <title>{title}</title>
+
       {/* Prism */}
       <link
         rel="preload"
