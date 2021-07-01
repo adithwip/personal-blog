@@ -1,7 +1,7 @@
 const config = {
   originalTitle: "Adith's Blog",
   currentURL: 'https://adith.vercel.app',
-  originalImage: '/assets/cover/cover-image.png',
+  originalImage: 'https://i.ibb.co/tXr3Wbr/cover-image.png',
   author: {
     name: 'Adith Widya Pradipta'
   },
