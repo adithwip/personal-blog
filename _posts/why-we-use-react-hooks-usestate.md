@@ -13,6 +13,7 @@ ogImage:
 Ever wonder why we have to wrap every data/state inside our React component with useState? Why don't we just use a simpler approach like making variables with a let keyword, and initiate our state there? Like what we can do in Svelte for example.
 
 Let's talk about it deeper with a code example:
+[*Also, you can play around in this CodeSandbox](https://codesandbox.io/s/why-we-use-react-hooks-usestate-xspwq)
 
 ```jsx diff
 import * as React from 'react'
@@ -23,15 +24,15 @@ function ReactComponent() {
   let favoriteFood = ''
   
   const handleChange = (event) => {
-  // Let's change the favoriteFood variable
-  // to hold our new state
-  favoriteFood = event.target.value
+    // Let's change the favoriteFood variable
+    // to hold our new state
+    favoriteFood = event.target.value
 
     // Let's peek the value we type to the input in console
     console.log(event.target.value)
 
-// Prove that the variable/state value is change
-console.log("fav", favoriteFood);
+    // Prove that the variable/state value is change
+    console.log("fav", favoriteFood);
   }
 
   return (
@@ -68,6 +69,12 @@ Let's hold keywords for this: **Trigger a state update**, **New value of the sta
 function ReactComponent() {
   //let favoriteFood = ''
   const [favoriteFood, setFavoriteFood] = useState('')
+
+  const handleChange = (event) => {
+    // Remove all the codes before
+    // And change to this:
+    setFavoriteFood(event.target.value)
+  }
 
   // ...rest of the code
 }
