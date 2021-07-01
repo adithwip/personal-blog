@@ -53,6 +53,7 @@ function ReactComponent() {
 }
 
 export default ReactComponent
+
 ```
 
 As you can see in the code example above. We use a simple variable to hold our state. The code is working if you see it on the console panel. It shows change on every word we type to the input. But you will notice instantly, that your favorite food name is not displaying on the render. Nothing.
