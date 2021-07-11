@@ -15,8 +15,19 @@
   @apply py-4;
 }
 
-.markdown p::selection {
+.markdown p::selection,
+.markdown p > strong::selection,
+.markdown p > code::selection {
   @apply bg-black text-indigo-200;
+}
+
+.markdown p > code {
+  @apply text-indigo-600 bg-indigo-50 rounded border border-indigo-200;
+}
+
+.markdown p > strong,
+.markdown p > em > strong {
+  @apply font-semibold;
 }
 
 .markdown a::selection {
@@ -24,7 +35,7 @@
 }
 
 .markdown a {
-  @apply font-semibold underline text-indigo-600;
+  @apply underline text-indigo-600;
 }
 
 .markdown ul,
@@ -67,10 +78,6 @@
 
 .markdown h5 {
   @apply text-base font-bold mt-6 mb-4 px-5 tracking-wide leading-snug;
-}
-
-.markdown pre {
-  @apply rounded-md;
 }
 
 .markdown code {
