@@ -17,12 +17,13 @@
 
 .markdown p::selection,
 .markdown p > strong::selection,
+.markdown p > em > strong::selection,
 .markdown p > code::selection {
-  @apply bg-black text-indigo-200;
+  @apply bg-indigo-100 text-indigo-600;
 }
 
 .markdown p > code {
-  @apply text-indigo-600 bg-indigo-50 rounded border border-indigo-200;
+  @apply text-indigo-600 bg-indigo-50;
 }
 
 .markdown p > strong,
