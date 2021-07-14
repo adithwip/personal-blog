@@ -26,7 +26,7 @@ const Post = ({ post, preview }: Props) => {
   return (
     <Layout
       preview={preview}
-      title={`${post.title} | Adith's Blog`}
+      title={`${post.title} | Adith Widya Pradipta`}
       description={post.excerpt}
       previewImageUrl={post.ogImage.url}
     >

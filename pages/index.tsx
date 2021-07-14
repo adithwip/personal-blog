@@ -16,7 +16,7 @@ const Index = ({ allPosts }: Props) => {
   return (
     <>
       <Layout
-        title="Adith's Blog"
+        title="Adith Widya Pradipta Personal Blog"
       >
         <Container>
           <Intro />
