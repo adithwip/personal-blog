@@ -62,23 +62,23 @@
 }
 
 .markdown h1 {
-  @apply text-3xl font-semibold mt-8 mb-4 tracking-wide leading-snug;
+  @apply text-3xl font-semibold my-4 tracking-wide leading-snug;
 }
 
 .markdown h2 {
-  @apply text-2xl font-bold mt-8 mb-4 tracking-wide leading-snug;
+  @apply text-2xl font-bold my-4 tracking-wide leading-snug;
 }
 
 .markdown h3 {
-  @apply text-xl font-bold mt-8 mb-4 tracking-wide leading-snug;
+  @apply text-xl font-bold my-4 tracking-wide leading-snug;
 }
 
 .markdown h4 {
-  @apply text-lg font-bold mt-6 mb-4 tracking-wide leading-snug;
+  @apply text-lg font-bold my-4 tracking-wide leading-snug;
 }
 
 .markdown h5 {
-  @apply text-base font-bold mt-6 mb-4 tracking-wide leading-snug;
+  @apply text-base font-bold my-4 tracking-wide leading-snug;
 }
 
 .markdown code {
