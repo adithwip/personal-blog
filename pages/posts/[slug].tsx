@@ -13,10 +13,9 @@ import PostType from '../../types/post'
 
 type Props = {
   post: PostType
-  preview?: boolean
 }
 
-const Post = ({ post, preview }: Props) => {
+const Post = ({ post }: Props) => {
   const router = useRouter()
 
   if (!router.isFallback && !post?.slug) {
@@ -25,7 +24,6 @@ const Post = ({ post, preview }: Props) => {
 
   return (
     <Layout
-      preview={preview}
       title={`${post.title} | Adith Widya Pradipta`}
       description={post.excerpt}
       previewImageUrl={post.ogImage.url}

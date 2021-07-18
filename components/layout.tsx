@@ -1,11 +1,9 @@
 import { ReactNode } from 'react'
 
-import Alert from './alert'
 import Footer from './footer'
 import SEO from './seo'
 
 type Props = {
-  preview?: boolean
   children: ReactNode,
   article?: boolean,
   title: string
@@ -15,7 +13,6 @@ type Props = {
 }
 
 const Layout = ({
-  preview,
   children,
   article = false,
   title,
@@ -31,7 +28,6 @@ const Layout = ({
         previewImageUrl={previewImageUrl}
       />
       <div className="min-h-screen">
-        <Alert preview={preview} />
         <main>{children}</main>
       </div>
       <Footer />
