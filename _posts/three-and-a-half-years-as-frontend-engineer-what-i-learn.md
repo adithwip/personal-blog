@@ -7,7 +7,7 @@ author:
   name: Adith Widya Pradipta
   picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
-  url: '/assets/blog/three-and-a-half-years-as-frontend-engineer-what-i-learn/cover-image.png'
+  url: '/assets/blog/three-and-a-half-years-as-frontend-engineer-what-i-learn/og-image.png'
 ---
 
 Every once in a while, we software engineers/developers face a moment where we have to slow down our thought and take time to rethink, reshape, and eventually replan our careers. Have we made our career so far on the "wise" path? Did our progression was the best decision for our individual development?

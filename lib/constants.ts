@@ -6,7 +6,7 @@ const config = {
     name: 'Adith Widya Pradipta'
   },
   originalDescription: 'Personal blog of Adith Widya Pradipta. Senior Frontend Engineer who loves to share every personal development journey. Included in this blog are technical tutorials, in-depth learning about some fundamentals and life events.',
-  siteName: "Adith's Blog"
+  siteName: "Adith Widya Pradipta's Personal Blog"
 }
 
 export default config

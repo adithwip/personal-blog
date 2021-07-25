@@ -1,13 +1,13 @@
 ---
 title: 'Why We Use React Hooks useState'
 excerpt: 'Ever wonder why we have to wrap every state inside our React component with useState?'
-coverImage: '/assets/blog/why-we-use-react-hooks-usestate/cover.png'
+coverImage: '/assets/blog/why-we-use-react-hooks-usestate/cover-image.png'
 date: '2021-07-01T05:24:25.352Z'
 author:
   name: Adith Widya Pradipta
   picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
-  url: '/assets/blog/why-we-use-react-hooks-usestate/cover.png'
+  url: '/assets/blog/why-we-use-react-hooks-usestate/og-image.png'
 ---
 
 Ever wonder why we have to wrap every data/state inside our React component with `useState`? Why don't we just use a simpler approach like making variables with a `let` keyword and initiate our `state` there? Like what we can do in Svelte, for example.
