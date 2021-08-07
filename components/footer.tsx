@@ -26,6 +26,14 @@ const Footer = () => {
               Linkedin
             </a>
             <a
+              href="https://www.polywork.com/adith"
+              target="_blank"
+              rel="noopener noreferer"
+              className="text-indigo-600 font-bold hover:underline"
+            >
+              Polywork
+            </a>
+            <a
               href="https://github.com/adithwip"
               target="_blank"
               rel="noopener noreferer"
