@@ -4,12 +4,12 @@ import Footer from './footer'
 import SEO from './seo'
 
 type Props = {
-  children: ReactNode,
-  article?: boolean,
+  children: ReactNode
+  article?: boolean
   title: string
-  description?: string,
-  previewImageUrl?: string,
-  pathUrl?: string,
+  description?: string
+  previewImageUrl?: string
+  pathUrl?: string
 }
 
 const Layout = ({

@@ -19,7 +19,8 @@ But in reality, you can't decide your fate about everything, and it's all right.
 So, as my attempt to maintain my expertise (and improve it) and be ready for everything in the future. I've read some books, digesting some tutorials, creating courses, launched a product, and now writing a blog. So in this article, I'll share my learning so far.
 
 ## (Try to) Think Like a Software Architect
-The truth is, I've never been a software architect. My three and a half years of career as a software developer, mainly as a developer. Wait, what? Did I indicate that software architect and software developer is different? Yes, I did. According to this book: Fundamentals of Software Architecture by Mark Richards and Neal Ford. 
+
+The truth is, I've never been a software architect. My three and a half years of career as a software developer, mainly as a developer. Wait, what? Did I indicate that software architect and software developer is different? Yes, I did. According to this book: Fundamentals of Software Architecture by Mark Richards and Neal Ford.
 
 The mental difference is based on "How to see at some point of view." But before I dive deeper into that, I need to explain why I think this is such an excellent book to read and to be prepared for the next challenge. As I am reading this book, I reach what I felt was the correct path on my own. In the end, I will go ahead with what I do now. As my career path grows, I will have little time to do actual coding tasks and be involved more in decision-making.
 
@@ -34,6 +35,7 @@ Deciding to use the frameworks has to come after deliberation of the trade-offs.
 Before deciding on the stack, addressing those trade-offs makes the difference between (most of) developer thinks vs. software architect (should) thinks. And finally, the actual answer for those questions is always, "It depends." You can't Google it. And the final decision must be taken after we proceed with solutions we genuinely evaluated based on our concerns. It can depend on the business needs, environment, people, and a host of other factors.
 
 ## Technical Breadth vs. Technical Depth
+
 I've talked about pondering trade-offs before. But this part is the hardest (at least for me personally). When I need to choose when to add stuff, I must know, maintain expertise of things I already know, and knowing what I don't know. It requires very effective time and energy management.
 
 Someone says that a good place to learn to program is on the job. I've learned so much on the job, but I also learn so little on the job. Don't get me wrong, I fully agree with learning on the job. Because I feel know how to do a lot on the job, to an extent. When I hit that wall, it's hard to get around. There needs to be time to learn other than just on the work I am currently doing.
@@ -51,6 +53,7 @@ When my career has come to more decision-making, it has to either pursue Depth o
 I've said it before that it's the most challenging part for me. Choosing one of the options rather than both. The skills I've already acquired until today are "hard-won." Either it hard for me to learn, or it was expensive. Someday I will "say goodbye" to all of them. Only taking fundamental skills with me to wade through the next stage of my career.
 
 ## Increase Productivity and Produce More Values
+
 In my earlier days as a software developer, I didn't value time like I do today. I didn't even know the difference between Productive and Busy. At the end of every workday, I'll feel satisfied when I busy all day. It feels good to be busy back then.
 
 Turns out they are different. You can be busy without being productive. But you can be effective and produce a lot of value without being gaudy at all. It was felt mystic when I knew it, "Do more with less time?". Since that day, I decide to persevere productivity more.
@@ -62,6 +65,7 @@ In my earlier days, I spent all working hours just to finish all the tasks on my
 When I finally fix my sleeping habits. I have more energy to do more. I started to do part-time jobs, creating content and doing a business that gives me passive income. It's not about hustling; it just a way to avoid wasting my precious time. When I can get more done, I'll have more time to learn, be better at my job, creating value in my business, and earn more money to provide for my family.
 
 ## Epilogue
+
 It's been a very fruitful moment of my life. I started in engineering career as a Coding Bootcamp graduate. It was a very fulfilled experience to have been able to have a time in my life as a software engineer. Three and a half years (and counting) to do the work as a front-end engineer pave the way to various possibilities, meet new friends, create more values, and provide my family better. Even before being a front-end engineer, I thought I will never have a spouse.
 
 I should have also written a blog to summarizes my life pre-engineering career. So I can finally say thank you to all persons who helped me have a better life by accepting me as an engineer. If you want to read it, stay tuned for further updates!

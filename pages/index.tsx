@@ -15,9 +15,7 @@ const Index = ({ allPosts }: Props) => {
   const morePosts = allPosts.slice(1)
   return (
     <>
-      <Layout
-        title="Adith Widya Pradipta Personal Blog"
-      >
+      <Layout title="Adith Widya Pradipta Personal Blog">
         <Container>
           <Intro />
           {heroPost && (

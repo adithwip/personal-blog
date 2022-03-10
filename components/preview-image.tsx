@@ -9,7 +9,7 @@ type Props = {
 
 const PreviewImage = ({ title, src, slug }: Props) => {
   const image = (
-    <figure className="relative bg-indigo-100 w-full rounded-xl overflow-hidden h-[182px] md:h-[300px]">
+    <figure className="relative h-[182px] w-full overflow-hidden rounded-xl bg-indigo-100 md:h-[300px]">
       <Image
         src={src}
         alt={`Cover Image for ${title}`}

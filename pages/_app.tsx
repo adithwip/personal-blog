@@ -28,7 +28,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         router.events.off('routeChangeComplete', handleRouteChange)
       }
     }
-
   }, [router.events])
 
   return <Component {...pageProps} />
